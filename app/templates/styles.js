@@ -1,7 +1,8 @@
 import { StyleSheet, Dimensions } from 'react-native'
 
-export default Styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         ...StyleSheet.absoluteFillObject,
     },
 })
+export default styles
