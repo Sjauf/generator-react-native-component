@@ -1,15 +1,20 @@
 import React, { Component } from 'react'
-import Styles from './styles'
-
 import {
 	View,
 	Text,
 } from 'react-native'
 
+import styles from './styles'
+
 class <%= name %> extends Component {
+	constructor(props) {
+		super(props)
+		this.state = {}
+	}
+
 	render() {
 		return (
-			<View style={Styles.container}>
+			<View style={styles.container}>
 				<Text><%= name %></Text>
 			</View>
 		)
