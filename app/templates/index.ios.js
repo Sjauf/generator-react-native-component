@@ -1,3 +1,3 @@
-import <%= name %> from './index.js'
+import <%= name %> from './index'
 
 export default <%= name %>
